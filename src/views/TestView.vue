@@ -204,7 +204,7 @@ export default {
 
     createPost() {
       axios
-        .post("http://localhost:3000/results/", {
+        .post("https://server-practice-eo8u.onrender.com/results/", {
           test_result: this.test_result,
           result: this.result,
         })
